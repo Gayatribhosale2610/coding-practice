@@ -1,3 +1,5 @@
+## Subsets
+
 class Solution {
     void solve(vector<int> nums, vector<int> res, int indx, vector<vector<int>>& ans){
         if(indx >= nums.size()){
@@ -21,3 +23,7 @@ public:
         return ans;
     }
 };
+
+
+### Input: nums = [1,2,3]
+### Output: [[],[1],[2],[1,2],[3],[1,3],[2,3],[1,2,3]]
